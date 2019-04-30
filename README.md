@@ -5,7 +5,7 @@ Here you will find the template for an APA manuscript created in Overleaf.
 As I am a Psychology student, this was created with APA formatting and referencing.
 
 To use it, click on the button 'clone or download', and 'download ZIP'. 
-Go to Overleaf at www.overleaf.com (and create an account if you don't already have one). Click on 'new project' and then 'upload project'. Navigate to the 'Article-template-master' ZIP file that downloaded onto your computer, or drag and drop it into the window. Ta da! You can now work on your thesis using the template provided.
+Go to Overleaf at www.overleaf.com (and create an account if you don't already have one). Click on 'new project' and then 'upload project'. Navigate to the 'Article-template-master' ZIP file that downloaded onto your computer, or drag and drop it into the window. Ta da! You can now work on your article using the template provided.
 
 ** More details **
 
