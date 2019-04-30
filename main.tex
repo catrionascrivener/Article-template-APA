@@ -1,0 +1,70 @@
+% APA style article template
+
+\documentclass[man,12pt]{apa6} % 'man' gives you a one column manuscript layout
+%\documentclass[jou,12pt]{apa6} % 'jou' gives you a two column journal layout. 12pt is the font size.
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[left]{lineno}
+\usepackage[english]{babel}
+\usepackage[round]{natbib} % referencing style
+\bibliographystyle{newapa} % APA referencing style
+\usepackage[colorlinks, citecolor = black, urlcolor = black]{hyperref}
+
+\graphicspath{ {Images/} } % Images should be put into the folder 'Images'
+
+
+\title{Title} 
+\shorttitle{Running head}
+\author{Authors}
+\affiliation{Affiliation}
+
+
+\abstract{}
+\keywords{keywords}
+\authornote{Correspondence regarding this article should be addressed to XXX at XXX (email: XX).}
+
+
+\begin{document}
+
+\maketitle
+\linenumbers % remove this to remove line numbers
+
+
+\section{Introduction}
+
+\section{Materials and methods} % the sections included will vary based on your paper
+\subsection{Participants}
+\subsection{Stimuli and Presentation}
+\subsection{Analysis}
+
+\section{Results}
+
+\section{Discussion}
+
+
+
+% End of the manuscript
+
+\section*{Acknowledgements}
+Acknowledgements
+
+\section*{Conflict of Interest Statement}
+
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+%\section*{Author Contributions}
+% Un-comment this section to add author contributions
+
+
+\section*{Data Accessibility Statement}
+The raw data, pre-processed data, and analysis scripts can be found on the Open Science Framework: \url{url xx}
+
+%\section*{Abbreviations}
+% Un-comment this section to add abbreviations
+
+\bibliography{bibliographyFileName}
+
+
+
+\end{document}
