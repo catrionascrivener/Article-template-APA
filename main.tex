@@ -1,7 +1,7 @@
 % APA style article template
 
-\documentclass[man,12pt]{apa6} % 'man' gives you a one column manuscript layout
-%\documentclass[jou,12pt]{apa6} % 'jou' gives you a two column journal layout. 12pt is the font size.
+\documentclass[a4paper,man,floatsintext,12pt]{apa6} % 'man' gives you a one column manuscript layout, floatsintext forces the images to appear in the text, rather than the end of the manuscript (remove this if you want the images at the end)
+%\documentclass[a4paper,jou,12pt]{apa6} % 'jou' gives you a two column journal layout. 12pt is the font size.
 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -12,9 +12,10 @@
 \usepackage[colorlinks, citecolor = black, urlcolor = black]{hyperref} % allows you to put in a URL to your data
 \graphicspath{ {Images/} } % Images should be put into the folder 'Images'
 
+%\thispagestyle{otherpage} % this line removes the running head if you don't want it
 
 \title{Title} 
-\shorttitle{Running head}
+\shorttitle{Running head} % leave this empty if you don't want a running head
 \author{Authors}
 \affiliation{Affiliation}
 
@@ -54,7 +55,7 @@ Type the participant information here...
 	\label{fig:exampleImage}	
 \end{figure} 
 
-\begin{figure}[h!] % jou puts the images within the text. You will want the image to fit only half of the page, so the width is set to 0.5\text width.
+\begin{figure}[h!] % jou puts the images within the text. You will want the image to fit only half of the page, so the width is set to 0.5\text width. Change this to 1\test width to fill the whole page.
 	\centering	
 	\includegraphics[width=0.5\textwidth]{exampleImage.png}
 	\caption{Example caption}
